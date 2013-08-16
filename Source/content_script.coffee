@@ -25,6 +25,7 @@ words = [
   'Thin Privilege'
   'Privilege'
   'POC'
+  'patriarchy'
   'Black'
   'Curves'
   'kin'
