@@ -28,7 +28,6 @@ words = [
   'patriarchy'
   'Black'
   'Curves'
-  'kin'
   'Cultural Appropriation'
   'Culture'
   'Cis'
