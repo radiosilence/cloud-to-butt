@@ -31,7 +31,7 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\b\w\b/g, "HODOR");
+	v = v.replace(/[\w]+/g, "HODOR");
 	
 	textNode.nodeValue = v;
 }
