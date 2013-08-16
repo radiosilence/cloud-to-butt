@@ -2,7 +2,7 @@
 (function() {
   var handleText, walk, words;
 
-  words = ['Reverse Racism', 'Racism', 'Equality', 'SJW', 'Weight', 'Rape', 'Ableism', 'Ableist', 'Social Justice', 'Feminism', 'MRA', 'Masculism', 'Misandry', 'Misogyny', 'Genderfluid', 'Genderqueer', 'Demisexual', 'Otherkin', 'Headmates', 'White people', 'Fatphobia', 'Thin Privilege', 'Privilege', 'POC', 'Black', 'Curves', 'kin', 'Cultural Appropriation', 'Culture', 'Cis', 'Trans', 'LGBT', 'Queer', 'Rape', 'Solidarity', 'Patriachy', 'Pride', 'Opressed', 'Opression', 'Tumblr', 'Womyn', 'Wymyn', 'Feminist', 'Ship', 'Fandom', 'Probesity', 'Kyriarchy', 'Heightism', 'Discrimination', 'Queer', 'Sass', 'WOC', 'Heterosexual', 'White privilege', 'Disabled'];
+  words = ['Reverse Racism', 'Racism', 'Equality', 'SJW', 'Weight', 'Rape', 'Ableism', 'Ableist', 'Social Justice', 'Feminism', 'MRA', 'Masculism', 'multiple', 'Misandry', 'Misogyny', 'Genderfluid', 'Genderqueer', 'Demisexual', 'Otherkin', 'Headmates', 'White people', 'Fatphobia', 'obesity', 'Thin Privilege', 'Privilege', 'POC', 'Black', 'Curves', 'kin', 'Cultural Appropriation', 'Culture', 'Cis', 'policing', 'fatphobia', 'wolf', 'Trans', 'LGBT', 'Queer', 'Rape', 'Solidarity', 'Patriachy', 'Pride', 'Oppressed', 'Oppression', 'Tumblr', 'Womyn', 'Wymyn', 'Feminist', 'Ship', 'Fandom', 'Probesity', 'Kyriarchy', 'Heightism', 'Discrimination', 'Queer', 'Sass', 'WOC', 'Heterosexual', 'White privilege', 'Disabled', 'estrogen'];
 
   walk = function(node) {
     var child, next, _results;
