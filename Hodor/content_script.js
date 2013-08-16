@@ -2,7 +2,7 @@
 (function() {
   var handleText, ucwords, walk, words;
 
-  words = ['Reverse Racism', 'Racism', 'Equality', 'SJW', 'Weight', 'Rape', 'Ableism', 'Ableist', 'Social Justice', 'Feminism', 'MRA', 'Masculism', 'multiple', 'Misandry', 'Misogyny', 'Genderfluid', 'Genderqueer', 'appropr', 'Demisexual', 'Otherkin', 'Headmates', 'White people', 'Fatphobia', 'obesity', 'Thin Privilege', 'Privilege', 'POC', 'patriarchy', 'Black', 'Curves', 'Cultural Appropriation', 'Culture', 'Cis', 'policing', 'fatphobia', 'wolf', 'Trans', 'LGBT', 'Queer', 'Rape', 'Solidarity', 'Patriachy', 'Pride', 'Oppressed', 'Oppression', 'Tumblr', 'Womyn', 'Wymyn', 'Feminist', 'Ship', 'Fandom', 'Probesity', 'Kyriarchy', 'Heightism', 'Discrimination', 'Queer', 'Sass', 'WOC', 'Heterosexual', 'White privilege', 'Disabled', 'estrogen'];
+  words = ['Reverse Rac', 'Racism', 'Equalit', 'SJW', 'Weight', 'Rape', 'Ableism', 'Ableist', 'Social Justice', 'Femin', 'MRA', 'Masculism', 'multiple', 'Misander', 'Misandr', 'Misogyny', 'Genderfluid', 'Genderqueer', 'appropr', 'Demisexual', 'Otherkin', 'Headmates', 'White people', 'Fatphobia', 'obesity', 'Thin Privilege', 'Privilege', 'POC', 'patriarchy', 'Black', 'Curves', 'Cultural Appropriation', 'Culture', 'Cis', 'policing', 'fatphobia', 'wolf', 'Trans', 'LGBT', 'Queer', 'Rape', 'Solidarity', 'Patriachy', 'Pride', 'Oppressed', 'Oppression', 'Tumblr', 'Womyn', 'Wymyn', 'Feminist', 'Ship', 'Fandom', 'demon', 'devil', 'satan', 'Probesity', 'Kyriarchy', 'Heightism', 'Discrimination', 'Queer', 'Sass', 'WOC', 'Heterosexual', 'White privilege', 'Disabled', 'estrogen'];
 
   ucwords = function(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
