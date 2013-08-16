@@ -16,6 +16,7 @@ words = [
   'Misogyny'
   'Genderfluid'
   'Genderqueer'
+  'appropr'
   'Demisexual'
   'Otherkin'
   'Headmates'
@@ -62,6 +63,9 @@ words = [
   'estrogen'
 ]
 
+ucwords = (string) ->
+    string.charAt(0).toUpperCase() + string.slice(1);
+
 walk = (node) ->
   child = undefined
   next = undefined
@@ -78,6 +82,7 @@ walk = (node) ->
 handleText = (textNode) ->
   v = textNode.nodeValue
   v = v.replace(new RegExp(exp.toUpperCase(), 'g'), 'HODOR') for exp in words
+  v = v.replace(new RegExp(ucwords(exp), 'g'), 'Hodor') for exp in words
   v = v.replace(new RegExp(exp, 'gi'), 'hodor') for exp in words
   textNode.nodeValue = v
 
