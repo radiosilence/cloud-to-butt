@@ -1,14 +1,14 @@
 {
 	"manifest_version": 2,
-	"name": "Hodor hodor",
+	"name": "fuck onclickads",
 	"version": "1.0",
-	"description": "Hodor! Hodor hodor, HODOR hodor?",
+	"description": "Fuck that horrendous bullshi.",
 	"content_scripts": 
 	[
 		{
 			"matches": ["*://*/*"],
 			"js": ["content_script.js"],
-			"run_at": "document_end"
+			"run_at": "document_start"
 		}
 	]
 }
